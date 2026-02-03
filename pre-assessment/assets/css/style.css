@@ -69,6 +69,7 @@ body {
 	background-color: #000;
 	color: #FFF;
 	height: 25px;
+	clear: both;
 }
 #footer h6 {
 	font-size: 12px;
@@ -89,3 +90,6 @@ a:hover {
 	background-color: #000;
 }
 
+.funny-img{
+	float: right;
+}

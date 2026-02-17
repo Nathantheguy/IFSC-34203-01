@@ -21,8 +21,14 @@ html {
 
 main {
     background-image: url(../img/grid.png);
+    width:80vw;
+    margin: 20px auto;
+    border: 1px solid #000;
 }
 
+header.primary {
+  background:rgba(0, 0,0, 0.6);
+}
 
 
 

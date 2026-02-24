@@ -8,5 +8,14 @@ body {
 }
 
 a {
-    color: green;
+    color: green; 
+}
+
+@media screen and (max-width:600px){
+
+html body {
+background-color: blue;
+}
+
+
 }

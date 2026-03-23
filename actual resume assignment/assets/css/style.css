@@ -31,6 +31,13 @@ img {
   max-width: 100%;
 }
 
+/* ------ Global Styles -------*/
+body {
+  background: var(--main-bg-color);
+  color: var(--primary-type-color);
+  line-height: 1.6;
+}
+
 /* ------ Design Time -------*/
 
 .container {
@@ -45,6 +52,49 @@ nav ul{
     padding: 20px 20px 20px 20px;
 }
 
-nav li{
-    list-style-type: none;
+main.container {
+  display: grid;
+  grid-template-areas:
+    "title" "about" "education" "experience" "skills";
+}
+
+.page-title {
+  grid-area: title;
+}
+#about {
+  grid-area: about;
+}
+#skills {
+  grid-area: skills;
+}
+#experience {
+  grid-area: experience;
+}
+#education {
+  grid-area: education;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width:768px){
+  
+ header.container{
+  max-width:900px;
+  }
+ 
+  main.container{
+  max-width: 900px;
+  grid-template-columns: 36.5% auto;  
+  grid-template-areas:
+    "title title"
+    "about about"
+    "skills experience"
+    ". education"
+    ;  
+    }
+  } 
+
+  @media screen and (min-width:992px){
+  
+  
 }

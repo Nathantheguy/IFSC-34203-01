@@ -36,3 +36,4 @@ document.querySelectorAll('a[href*="#"]:not([href="#"]):not([href="#0"])')
       }
     });
   });
+

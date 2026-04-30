@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+/*The 3 boxes */
+
+.container {
+  display: flex;         
+  gap: 20px;           
+  justify-content: center; 
+
+.box {
+  flex: 1;              
+  padding: 20px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+}

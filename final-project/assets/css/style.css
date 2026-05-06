@@ -1,21 +1,53 @@
+/*color scheme*/
+.prim {
+  background-color: #4361EE;
+  padding: 30px;
+  color:#f0f0f0;
+  
+}
+
+.bannertext {
+  font-size: 50px;
+  color: #f0f0f0;
+}
 
 
 
 
 
 
+/*Text*/
+body {
+  font-family: Arial, sans-serif;
+}
 
+.bannertext {
+  font-size: 50px;
+  color: #333;
+}
 
 /*The 6 cards */
-
 .container {
   display: flex;         
   gap: 20px;           
   justify-content: center; 
+}
 
 .card {
   flex: 1;              
   padding: 20px;
   background: #f0f0f0;
   border: 1px solid #ccc;
+}
+.card h2 {
+  margin-top: 20px;
+}
+
+#links{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 450px; 
+  font-size: 20px
 }

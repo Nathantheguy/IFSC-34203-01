@@ -9,11 +9,31 @@
 .bannertext {
   font-size: 50px;
   color: #f0f0f0;
+  padding-top: 50px;
+}
+  
+ul{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 450px; 
+  font-size: 20px
+}
+
+#bannerlinks {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
 }
 
 
 
-
+ul li {
+  border-left: 5px solid white;
+  padding-left: 10px;
+}
 
 /*Text*/
 

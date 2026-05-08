@@ -1,7 +1,7 @@
 /*color scheme*/
 .prim {
-  background-color: #4361EE;
-  padding: 50px;
+  background-color: #393F86;
+  padding: 30px;
   color:#f0f0f0;
   
 }
@@ -9,7 +9,11 @@
 .bannertext {
   font-size: 50px;
   color: #f0f0f0;
-  padding-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
 }
   
 ul{
@@ -46,10 +50,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.bannertext {
-  font-size: 50px;
-  color: #333;
-}
+
 
 /*The 6 cards */
 .container {
@@ -63,6 +64,8 @@ body {
   padding: 20px;
   background: #f0f0f0;
   border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
 }
 .card h2 {
   margin-top: 20px;
@@ -95,7 +98,7 @@ body {
   display: block;
   margin: 0 auto;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
   background-color: #4361EE;
   color: #f0f0f0;
   border: none;
@@ -103,3 +106,27 @@ body {
   cursor: pointer;
 }
 
+.firstcontent {
+  padding: 40px;
+  background-color: #f0f0f0;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#learn-more{
+  margin: 40px auto;
+}
+
+.secondcontent {
+  padding: 40px;
+  background-color: #4361EE;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#missiontime {
+  font-size: 40px;
+  color: #f0f0f0;
+  text-align: center;
+  margin-bottom: 40px;
+}

@@ -1,6 +1,6 @@
 /*color scheme*/
 .prim {
-  background-color: #393F86;
+  background-color: #1c2e4a;
   padding: 30px;
   color:#f0f0f0;
   
@@ -82,14 +82,14 @@ body {
 
 #joinheader {
   font-size: 40px;
-  color: #333;
+  color: white;
   text-align: center;
   margin-bottom: 40px;
 }
 
 #joindescription {
   font-size: 20px;
-  color: #666;
+  color: white;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -99,8 +99,8 @@ body {
   margin: 0 auto;
   padding: 10px 20px;
   font-size: 20px;
-  background-color: #4361EE;
-  color: #f0f0f0;
+  background-color: white;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -108,7 +108,7 @@ body {
 
 .firstcontent {
   padding: 40px;
-  background-color: #f0f0f0;
+  background-color: #393F86;
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -119,14 +119,14 @@ body {
 
 .secondcontent {
   padding: 40px;
-  background-color: #4361EE;
+  background-color: #f0f0f0;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
 #missiontime {
   font-size: 40px;
-  color: #f0f0f0;
+  color: #333;
   text-align: center;
   margin-bottom: 40px;
 }

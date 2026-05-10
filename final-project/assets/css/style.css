@@ -21,7 +21,7 @@ ul{
   font-size: 20px
 }
 
-#bannerlinks {
+.bannerlinks {
   display: flex;
   text-align: center;
   list-style-type: none;
@@ -59,6 +59,7 @@ body {
   margin: 75px;
 }
 
+/*Main Content*/
 
 #links{
   display: flex;
@@ -83,8 +84,9 @@ body {
   margin-bottom: 30px;
 }
 
-#learn-more {
-  display: block;
+.learn-more {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 10px 20px;
   font-size: 20px;
@@ -169,4 +171,49 @@ h1 {
   background-color: #393F86;
   text-align: center;
   color: #f0f0f0;
+}
+
+/*Media Queries*/
+
+/* Base styles for mobile (default) */
+.container { width: 100%; }
+
+/* Small tablets and up */
+@media (min-width: 40rem) { /* ~640px */
+  .container { width: 90%; }
+}
+
+/* Desktops and up */
+@media (min-width: 64rem) { /* ~1024px */
+  .container { width: 80%; }
+}
+
+/*mobile*/
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-links {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .navbar2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-links2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
